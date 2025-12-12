@@ -9,6 +9,7 @@
   "author": "Marc Hamacek",
   "license": "ISC",
   "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
@@ -18,5 +19,10 @@
     "nodemon": "^3.1.11",
     "password-validator": "^5.1.1",
     "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.7.4"
   }
 }
