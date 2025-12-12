@@ -1,8 +1,5 @@
 const User = require('../models/User');
 const Post = require('../models/Post');
-const {
-    json
-} = require('body-parser');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const PasswordValidator = require('password-validator');
