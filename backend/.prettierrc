@@ -1,11 +1,18 @@
 {
   "plugins": ["@trivago/prettier-plugin-sort-imports"],
-  "importOrder": ["^node:", "^express$", "^sequelize$", "<THIRD_PARTY_MODULES>", "^[./]"],
+  "importOrder": [
+    "^node:",
+    "^express$",
+    "^sequelize$",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]"
+  ],
   "importOrderSeparateGroups": true,
   "importOrderCaseInsensitive": true,
   "singleQuote": true,
   "semi": true,
   "tabWidth": 2,
-  "trailingComma": "es5",
-  "printWidth": 100
+  "trailingComma": "all",
+  "printWidth": 80,
+  "parser": "typescript"
 }
