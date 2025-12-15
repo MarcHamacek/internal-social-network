@@ -9,7 +9,6 @@
   "author": "Marc Hamacek",
   "license": "ISC",
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
@@ -21,11 +20,13 @@
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
     "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/multer": "^2.0.0",
     "@types/node": "^25.0.2",
+    "@types/sequelize": "^4.28.20",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.7.4",
